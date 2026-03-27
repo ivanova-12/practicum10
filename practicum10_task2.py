@@ -12,16 +12,4 @@ def num_of_fibonachi(n: int) -> None:
         num = all_nums[-2]
 
     print(*all_nums)
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
