@@ -15,20 +15,4 @@ def date_time_del(possible_date: str) -> float:
     seconds = difference.total_seconds()
 
     return seconds
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
