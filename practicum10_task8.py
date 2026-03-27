@@ -41,20 +41,4 @@ def date_time(possible_date: str) -> None:
 
     if valid_date:
         print(f"{day:02d}.{month:02d}.{year % 100:02d} {hour:02d}:{minute:02d}:{second:02d} {ampm}")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        
