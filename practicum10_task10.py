@@ -45,13 +45,3 @@ def specific_numbers(A: int, B: int) -> None:
 
 
 
-
-
-
-
-
-
-
-
-
-
