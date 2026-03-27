@@ -7,3 +7,4 @@ def sms_manager(sms: str) -> str:
         return sms
     else:
         return sms[:160]
+        
