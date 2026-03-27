@@ -31,15 +31,4 @@ def sales(cost: float, holiday_day: bool, bonus_card: bool) -> float:
         total_discount = 0.15
 
     return round(cost * (1 - total_discount), 2)
-
-
-
-
-
-
-
-
-
-
-
-
+    
