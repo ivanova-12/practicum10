@@ -1,7 +1,7 @@
 import turtle as t
 
 def triangle(x: int, y: int, a: int,
-             destination: int, color: str):
+             destination: int, color: str) -> None:
     """Draws a triangle with help of 1 vertex
     and particular size of side
     """
@@ -89,7 +89,7 @@ def triangle(x: int, y: int, a: int,
 
 
 def trapezoid(x: int, y: int, a: int, b: int,
-              height: int, placement: int, color: str):
+              height: int, placement: int, color: str) -> None:
     """Draws a trapezoid with help of 1 vertex
     and sizes of sides and height
     """
@@ -183,7 +183,7 @@ def trapezoid(x: int, y: int, a: int, b: int,
 
 
 def square(x: int, y: int, a: int,
-           alpha: int, color: str):
+           alpha: int, color: str) -> None:
     """Draws a square with help of 1 vertex, side
     and angle of turning
     """
@@ -206,7 +206,7 @@ def square(x: int, y: int, a: int,
     t.end_fill()
 
 
-def drawing():
+def drawing() -> None:
     """Draw the end picture"""
     for i in range(25):
         triangle(-600 + 50*i, 100, 70, 7, 'lightpink')
