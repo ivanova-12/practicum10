@@ -19,15 +19,3 @@ def all_primes() -> None:
     for num in range(1, N + 1):
         if is_prime(num):
             print(num, end=' ')
-
-
-
-
-
-
-
-
-
-
-
-
