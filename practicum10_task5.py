@@ -23,19 +23,4 @@ def monetary_equivalent_card() -> int:
         cost_of_card = 0
 
     return cost_of_card
-
-
-
-print(monetary_equivalent_card())
-
-
-
-
-
-
-
-
-
-
-
-
+    
