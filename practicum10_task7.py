@@ -81,19 +81,3 @@ def common_multiple(A: int, B: int, N: int) -> None:
 
     print(*list_of_cm)
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
