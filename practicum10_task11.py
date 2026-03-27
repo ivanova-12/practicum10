@@ -21,8 +21,6 @@ def all_primes() -> None:
             print(num, end=' ')
 
 
-all_primes()
-
 
 
 
