@@ -1,7 +1,7 @@
 import turtle as t
 import random as r
 
-def house(side):
+def house(side: int) -> None:
     """Draw the shadow of one house"""
     t.left(90)
     t.forward(side)
@@ -13,7 +13,7 @@ def house(side):
     t.forward(side // 2)
 
 
-def moon(size):
+def moon(size: int) -> None:
     """Draw the moon"""
     t.penup()
     t.goto(0, 300)
@@ -25,7 +25,7 @@ def moon(size):
     t.penup()
 
 
-def shadow(y1, color):
+def shadow(y1: int , color: str) -> None:
     """Draw the shadow of all houses in one line"""
     t.penup()
     t.color(color)
@@ -47,7 +47,7 @@ def shadow(y1, color):
     t.penup()
 
 
-def stars():
+def stars() -> None:
     """Draw the stars"""
     t.penup()
     nums_of_stars = r.randint(100, 500)
@@ -62,7 +62,7 @@ def stars():
     t.setheading(0)
 
 
-def windows():
+def windows() -> None:
     """Draw the windows"""
     t.color('yellow')
     nums_of_windows = r.randint(50, 200)
@@ -81,7 +81,7 @@ def windows():
     t.setheading(0)
 
 
-def night_town():
+def night_town() -> None:
     """Draw the night town/the end picture"""
     t.speed(500)
     t.screensize(1200, 1920)
@@ -96,5 +96,3 @@ def night_town():
 
 if __name__ == '__main__':
     night_town()
-
-
