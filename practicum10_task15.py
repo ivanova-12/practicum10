@@ -96,3 +96,4 @@ def night_town() -> None:
 
 if __name__ == '__main__':
     night_town()
+    
