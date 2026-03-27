@@ -19,12 +19,3 @@ def vowels_and_consonants(sentence: str) -> None:
     consonants_in_snt = all_sentence
 
     print(f'{vowels_in_snt} гласных и {consonants_in_snt} согласных букв')
-
-
-
-
-
-
-
-
-
