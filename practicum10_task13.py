@@ -12,5 +12,3 @@ def triangle(v1: tuple, v2: tuple, v3: tuple, color: str) -> None:
     t.goto(v3)
     t.goto(v1)
     t.end_fill()
-
-
