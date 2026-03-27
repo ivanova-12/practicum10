@@ -9,15 +9,4 @@ def make_payment(P: float) -> None:
         print('Успех!')
     else:
         print('Повторить попытку')
-
-
-
-
-
-
-
-
-
-
-
-
+        
